@@ -13,16 +13,17 @@ html {
 h1 {
 	font-size: 3rem;
 	color: royalblue;
+	text-transform: uppercase;
 }
 
 hr {
 	border-color: #1e7bdc;
 	border-width: 3px;
-	max-width: 65px;
+	max-width: 100px;
 }
 
 .buffer {
-	height: 15rem;
+	height: 10rem;
 }
 
 .btn {
@@ -37,8 +38,8 @@ hr {
 }
 
 .btn-secondary:hover {
-	background-color: #175ea9;
-	border-color: #175ea9;
+	background-color: #DA882B;
+	border-color: #2074cc;
 	border-width: 4px;
 }
 
@@ -46,3 +47,7 @@ hr {
 	padding: 1rem 2rem;
 }
 
+.btn-x2 {
+	padding: 1rem 2rem;
+	margin-top: 2px;
+}
